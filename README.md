@@ -1,7 +1,7 @@
 
 # Projeto Prático #2 - Rocketseat Full Stack
 
-![Imagem do Projeto](![image](https://github.com/user-attachments/assets/ceec3d7a-92fa-4bb1-9e6e-a06a02b06d14))
+![Imagem do Projeto](![image](github/pagina.png))
 
 Como parte do curso Full Stack da Rocketseat, desenvolvi meu segundo projeto prático. Neste projeto, coloquei em prática os conceitos de HTML e CSS que aprendi nas aulas, construindo uma página de portifólio 100% com a mão na massa.
 
