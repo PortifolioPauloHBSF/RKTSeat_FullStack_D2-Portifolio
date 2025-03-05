@@ -160,6 +160,7 @@
     }
 
     & > div {
+        margin-inline: auto;
         max-width: 888px;
         padding: 24px;
     }
