@@ -1,0 +1,225 @@
+#apresentacao {
+    display: flex;
+    flex-direction: column;
+    margin-inline: auto;
+
+    h1,
+    h2,
+    p {
+        text-align: center;
+    }
+
+    p {
+        color: var(--gray-400);
+    }
+
+    h2 {
+        margin-bottom: 8px;
+        color: var(--gray-500);
+        span {
+            color: var(--c-red);
+        }
+    }
+
+    h1 {
+        margin-bottom: 20px;
+        color: var(--gray-600);
+    }
+
+    & > div {
+        display: flex;
+        flex-direction: column;
+        margin-top: 120px;
+        margin-bottom: 80px;
+        padding-inline: 180px;
+
+        & > img {
+            margin: 0 auto;
+            width: 256px;
+            aspect-ratio: 1/1;
+            object-fit: cover;
+            border-radius: 50%;
+            margin-bottom: 56px;
+        }
+    }
+
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 16px;
+        justify-content: center;
+        margin-bottom: 94px;
+        padding-inline: 143px;
+    }
+
+    li {
+        list-style: none;
+
+        border-radius: 50px;
+        background-color: var(--gray-300);
+
+        img {
+            height: 24px;
+            width: 24px;
+        }
+
+        a {
+            padding: 8px 16px;
+            display: flex;
+            align-items: center;
+            align-content: center;
+            gap: 8px;
+        }
+    }
+
+    & > img {
+        width: 32px;
+        margin-inline: auto;
+        margin-bottom: 57px;
+    }
+}
+
+#meu-trabalho {
+    padding-bottom: 144px;
+
+    .cards-grid {
+        grid-template-columns: repeat(3, 1fr);
+        padding-inline: 24px;
+    }
+
+    h1 {
+        font: var(--subtitle-font-family);
+        color: var(--c-red);
+        text-align: center;
+        padding-top: 72px;
+    }
+
+    h2 {
+        font: var(--title-md);
+        color: var(--gray-600);
+        text-align: center;
+        margin-bottom: 56px;
+    }
+
+    .card {
+        background-color: var(--gray-300);
+        padding: 12px;
+        border-radius: 12px;
+
+        img {
+            width: 100%;
+            margin-bottom: 20px;
+            border-radius: 8px;
+        }
+
+        h3 {
+            font: var(--title-sm);
+            padding: 4px;
+        }
+
+        p {
+            font: var(--text-sm);
+            padding: 4px;
+            margin-bottom: 17px;
+        }
+    }
+
+    .card:hover {
+        outline: solid 1.5px var(--gray-400);
+    }
+}
+
+#meus-servicos {
+    padding-bottom: 120px;
+
+    h1 {
+        font: var(--subtitle);
+        color: var(--c-red);
+        text-align: center;
+        padding-top: 88px;
+        margin-bottom: 8px;
+    }
+
+    h2 {
+        font: var(--title-md);
+        color: var(--gray-600);
+        text-align: center;
+        margin-bottom: 56px;
+    }
+
+    .card-2 {
+        padding: 20px;
+        border-radius: 12px;
+        outline: solid 2px var(--gray-200);
+
+        i {
+            display: inline-block;
+            margin-bottom: 20px;
+            font-size: 48px;
+        }
+    }
+
+    & > div {
+        max-width: 888px;
+        padding: 24px;
+    }
+}
+
+#contato {
+    padding-bottom: 200px;
+    
+    h1,
+    h2,
+    p {
+        text-align: center;
+    }
+
+    h1 {
+        padding-top: 128px;
+        margin-bottom: 8px;
+        font: var(--subtitle);
+        color: var(--c-purple);
+    }
+
+    h2 {
+        margin-bottom: 8px;
+        font: var(--title-md);
+        color: var(--gray-600);
+    }
+
+    p {
+        color: var(--gray-500);
+        margin-bottom: 48px;
+    }
+
+    ul {
+        gap: 16px;
+        max-width: 400px;
+        margin-inline: auto;
+    }
+
+    li {
+        list-style: none;    
+    }
+    
+    li a {
+        background-color: var(--gray-300);
+        border-radius: 12px;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        gap: 12px;
+
+        i:last-child {
+            margin-left: auto;
+        }
+    }
+
+    li a:hover {
+        outline: solid 1.5px var(--gray-400);
+
+        i {
+            font-size: 20px;
+        }
+    }
+}

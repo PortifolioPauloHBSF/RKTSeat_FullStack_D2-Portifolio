@@ -1,0 +1,83 @@
+.container {
+    margin-inline: auto;
+    max-width: 1366px;
+}
+
+.bg-1 {
+    background-image: url(../assets/images/Background_Intro.png);
+    background-size: cover;
+}
+
+.bg-2 {
+    background: var(--gray-200);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg-3 {
+    background: var(--gray-100);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg-4 {
+    background-image: url(../assets/images/Background_Contacts.png);
+    background-size: cover;
+}
+
+.grid {
+    display: grid;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: column;
+}
+
+.gap-24 {
+    gap: 24px;
+}
+
+.title-lg {
+    font: var(--title-lg);
+}
+
+.title-md {
+    font: var(--title-md);
+}
+
+.title-sm {
+    font: var(--title-sm);
+}
+
+.subtitle {
+    font: var(--subtitle);
+}
+
+.text-md {
+    font: var(--text-md);
+}
+
+.text-sm {
+    font: var(--text-sm);
+}
+
+.purple {
+    color: var(--c-purple);
+}
+
+.yellow {
+    color: var(--c-yellow);
+}
+
+.green {
+    color: var(--c-green);
+}
+
+.blue {
+    color: var(--c-blue);
+}
